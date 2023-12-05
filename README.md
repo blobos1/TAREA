@@ -4,9 +4,9 @@ TAREA 2 - 3
 > Estudio del comportamiento de RTSP
 
 
-## Table of Contents
-* [Informacion General](#general-information)
-* [Tecnologias Usadas](#technologies-used)
+## Tabla de Contenidos
+* [Informacion General](#informacion-general)
+* [Tecnologias Usadas](#tecnologias-usadas)
 
 
 
@@ -18,7 +18,7 @@ al mismo tiempo o cuando se modifican sus campos especificos. Todo esto con el f
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
+## Tecnologias usadas
 - Wireshark
 - VmWare Workstation 17 Player
 - FFMpeg
@@ -26,6 +26,14 @@ al mismo tiempo o cuando se modifican sus campos especificos. Todo esto con el f
 - Docker
 - Scapy
 - pip3
+
+A continuación, se presentan README que contienen archivos que utilizamos para realizar la tarea
+
+-https://github.com/bluenviron/mediamtx/blob/main/README.md
+
+-https://github.com/secdev/scapy/blob/master/README.md
+
+-https://github.com/docker
 
 
 
