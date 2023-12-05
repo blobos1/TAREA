@@ -35,6 +35,7 @@ A continuación, se presentan README que contienen archivos que utilizamos para 
 
 -https://github.com/docker
 
+-https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
 
 
 
