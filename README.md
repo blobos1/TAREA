@@ -1,6 +1,6 @@
 TALLER DE REDES Y SERVICIOS - TALLER
 
-[README.md](https://github.com/blobos1/blobos1/files/13555403/README.md)# TAREA 2 - 3
+TAREA 2 - 3
 > Estudio del comportamiento de RTSP
 
 
