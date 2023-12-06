@@ -30,7 +30,7 @@ al mismo tiempo o cuando se modifican sus campos especificos. Todo esto con el f
 - Scapy
 - pip3
 
-A continuación, se presentan README que contienen archivos que utilizamos para realizar la tarea
+A continuación, se presentan README que contienen archivos que utilizamos para realizar la tarea 2 y 3. Además, todos los codigos utilizados para la tarea 3 se encuentran en el repositorio codigos.md
 
 -https://github.com/bluenviron/mediamtx/blob/main/README.md
 
