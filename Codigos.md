@@ -27,3 +27,7 @@ done
 tc qdisc del dev $iface root netem
 echo "Listo"
 </pre>
+El grafico generado por esto para cumplir con lo requerido es el siguiente:
+
+![Screenshot_20231205_232805_WhatsApp](https://github.com/blobos1/TAREA/assets/152948326/ccee48ba-e248-4e91-8021-c3c847f4a6f2)
+
