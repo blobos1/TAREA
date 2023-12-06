@@ -6,7 +6,7 @@ A continuación, se presentan los multiples codigos que fueron utilizados en la 
 
 
 ## PARTE 2
-Codigo 1:
+- Codigo 1:
 Este codigo funciona como un "lagswitch", el comando provoca que por cada segundo aumente la latencia en 10 cada segundo, aumentando hasta que el protocolo llega a su limite y deje de funcionar correctamente.
 
 #!/bin/bash
