@@ -17,7 +17,7 @@ TAREA 2 - 3
 ## Informacion general
 
 Esta tarea consiste en el estudio del comportamiento normal de un protocolo en especifico, en nuestro caso RTSP, y estudiar sus respuestas frente a cambios en su trafico cuando se inyectan paquetes no deseados
-al mismo tiempo o cuando se modifican sus campos especificos. Todo esto con el fin de estudiar  y analizar como funcionan los parametros y metricas de red.
+al mismo tiempo o cuando se modifican sus campos especificos. Todo esto con el fin de estudiar  y analizar como funcionan los parametros y metricas de red. Debido al peso del archivo, el video sera publicado en canvas. Lamentamos mucho la inconveniencia.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
