@@ -39,7 +39,8 @@ echo "Listo"
 </pre>
 El grafico generado por esto para cumplir con lo requerido es el siguiente:
 
-![Screenshot_20231205_232805_WhatsApp](https://github.com/blobos1/TAREA/assets/152948326/ccee48ba-e248-4e91-8021-c3c847f4a6f2)
+![Screenshot_from_2023-12-07_20-41-58](https://github.com/blobos1/TAREA/assets/152948326/1ffd664f-135a-4da5-b960-87ef3974b89d)
+
 
 - Codigo 2:
 Este codigo funciona como un generador de packet loss. Con un dato que varia, se le va ingresando cierto porcentaje de packet loss al trafico hasta que este deja de funcionar.
