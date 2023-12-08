@@ -41,3 +41,31 @@ El grafico generado por esto para cumplir con lo requerido es el siguiente:
 
 ![Screenshot_20231205_232805_WhatsApp](https://github.com/blobos1/TAREA/assets/152948326/ccee48ba-e248-4e91-8021-c3c847f4a6f2)
 
+- Codigo 2:
+Este codigo funciona como un generador de packet loss. Con un dato que varia, se le va ingresando cierto porcentaje de packet loss al trafico hasta que este deja de funcionar.
+
+<pre>
+    #!/bin/bash
+iface="lo"
+loss=0
+max=15
+aug=0.01
+tc qdisc add dev $iface root netem loss ${loss}%
+echo "Loss @ ${loss}%"
+while [ $loss != $max ]
+do
+    sleep 1
+    tc qdisc change dev $iface root netem loss ${loss}%
+    loss=$(echo "$loss + $aug" | bc )
+    loss=$(printf "%2f" $loss | sed -e 's/0*$//' -e 's/\.$//')
+    echo "Loss @ ${loss}%"
+done
+tc qdisc del dev $iface root netem
+echo "Listo"
+</pre>
+
+El grafico generado por este codigo es el siguiente, generado por Wireshark:
+
+
+![grafpacket](https://github.com/blobos1/TAREA/assets/152948326/73885041-4869-4e75-a99d-b3528b2fcdea)
+
