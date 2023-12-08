@@ -1,7 +1,17 @@
 A continuación, se presentan los multiples codigos que fueron utilizados en la primera y segunda parte de la tarea. Cada codigo tiene una descripción que explica su funcionalidad.
 
 ## PARTE 1
-
+# FUZZING
+Este codigo tiene como objetivo hacer "fuzz" udp cuando el servidor le envia el video al cliente, el cual esta usando ffplay.
+<pre>
+    target_ip = "127.0.0.1"  
+target_port = 8554
+def send_fuzzed_packet():
+    udp_packet = IP(dst=target_ip) / UDP(dport=target_port) / fuzz(Raw())
+    send(udp_packet, verbose=True)
+while True:
+    send_fuzzed_packet()
+</pre>
 
 
 
