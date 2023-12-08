@@ -13,7 +13,30 @@ while True:
     send_fuzzed_packet()
 </pre>
 
+El siguiente codigo modifica el campo especifico de CSeq para RTSP, pero no funciona correctamente al afectar al trafico generado. Nuestra hipotesis es que cometimos un error al implementarlo, ya que esto poseía una gran dificultad. Dejamos la plantilla a continuación:
+<pre>
+import scapy.all as scapy
 
+def fuzz_rtsp(ip_src, ip_dst, port_src, port_dst):
+    packet = scapy.Packet()
+
+
+    packet.version = 1
+    packet.method = "OPTIONS"
+    packet.url = "/stream"
+
+    packet.CSeq = "12345"
+    scapy.send(packet, ip_src=ip_src, ip_dst=ip_dst, port_src=port_src, port_dst=port_dst)
+
+if __name__ == "__main__":
+    
+    ip_src = "x.x.x.x"
+    port_src = x
+    ip_dst = "x.x.x.x"
+    port_dst = xxxx
+    fuzz_rtsp(ip_src, ip_dst, port_src, port_dst)
+
+</pre>
 
 ## PARTE 2
 - Codigo 1:
