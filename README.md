@@ -42,6 +42,8 @@ A continuación, se presentan README que contienen archivos que utilizamos para 
 
 -https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html (APLICACION PARA SIMULAR LINUX / UBUNTU, EN CASO DE USAR WINDOWS)
 
+-https://help.dreamhost.com/hc/es/articles/115000699011-Usar-pip3-para-instalar-m%C3%B3dulos-de-Python3
+
 
 
 
