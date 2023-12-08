@@ -32,13 +32,15 @@ al mismo tiempo o cuando se modifican sus campos especificos. Todo esto con el f
 
 A continuación, se presentan README que contienen archivos que utilizamos para realizar la tarea 2 y 3. Además, todos los codigos utilizados para la tarea 3 se encuentran en el repositorio codigos.md
 
--https://github.com/bluenviron/mediamtx/blob/main/README.md
+-https://github.com/bluenviron/mediamtx/blob/main/README.md (TRANSMISION DE VIDEO)
 
--https://github.com/secdev/scapy/blob/master/README.md
+-https://github.com/FFmpeg/FFmpeg (RECIBIR VIDEOS)
+
+-https://github.com/secdev/scapy/blob/master/README.md 
 
 -https://github.com/docker
 
--https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
+-https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html (APLICACION PARA SIMULAR LINUX / UBUNTU, EN CASO DE USAR WINDOWS)
 
 
 
